@@ -1,7 +1,7 @@
 # orbweaver
 Orbweaver is a python package for performing gene co-expression network analysis
 
-Orbweaver is a simple python API for analyzing gene expression datasets. It's a pet project and it's currently still under development. Pull requests are welcome. However, this package is low priority, so I may not be extremely efficient at responding to contributions. Orbweaver relies heavily on the wonderful [Networkx](https://networkx.github.io/) API. It  thus compatible with the wide range of network analysis tools available in Networkx. Other key dependencies are listed in the setup.py. 
+Orbweaver is a simple python API for analyzing gene expression datasets. It's a pet project and it's currently still under development. Pull requests are welcome. However, this package is low priority, so I may not be extremely efficient at responding to contributions. Orbweaver relies heavily on the wonderful [Networkx](https://networkx.github.io/) API. It is thus compatible with the wide range of network analysis tools available in Networkx. Other key dependencies are listed in the setup.py. A demonstration of the current Orbweaver workflow can be found in the *notebooks/demo.ipynb* Jupyter notebook. 
 
 ## Current features include: 
 
