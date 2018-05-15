@@ -15,7 +15,7 @@ Orbweaver is a simple python API for analyzing gene expression datasets. It's a 
 
 5. Exporting of network objects in various formats. 
 
-## Future features (in development) will include
+## Future features (in development) will include:
 
 1. Simulation of networks and data with specified structure and co-expression relationships. 
 
