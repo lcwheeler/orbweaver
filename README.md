@@ -23,7 +23,7 @@ Orbweaver is a simple python API for performing gene co-expression network analy
 
 4. Built-in approaches for data clustering. 
 
-5. Functions for caculating certain aspects of network topology. 
+5. Functions for calculating certain aspects of network topology. 
 
 ## Install
 
