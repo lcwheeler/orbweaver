@@ -9,12 +9,14 @@ class Visuals:
 
     def __init__(self):
         """Instantiate the Visuals class, which contains some simple plotting functions."""
-    
+
+    @classmethod
     def heatmap(matrix, cmap="plasma"):
         """Uses seaborn to draw a heatmap of the similarity matrix."""
 
         sns.heatmap(matrix, cmap=cmap)
 
+    @classmethod
     def quickdraw(graph, weights, save=False):
         """Function to draw a simple network diagram of a Network graph object.
 
@@ -50,6 +52,7 @@ class Visuals:
         else:
             pass
 
+    @classmethod
     def scatter(network, keyx, keyy):
         """Use matplotlib.pyplot to generate a simple scatter plot of Network object attributes."""
 
@@ -59,6 +62,7 @@ class Visuals:
         plt.title("Plot of"+keyx+"vs."+keyy)
 
 
+    @classmethod
     def outlier_plot(network, save=False):
         """Generate a scatter plot of the weights vs. robust outlier metric.
 

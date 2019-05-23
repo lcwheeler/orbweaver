@@ -9,13 +9,15 @@ class Stats:
     def __init__(self):
         """Instantiate an instance of the Stats class."""
 
+    @classmethod
     def zscores(weights):
         """Function returning Z-scores for a 1D array of values, i.e. weights of the graph edges."""
 
         # Use scipy.stats to calculate zscores
         z = scipy.stats.zscore(weights) 
         return z
-        
+
+    @classmethod        
     def mad(weights):
         """Function to return the median absolute deviation (MAD) of edge weights."""
 
@@ -23,6 +25,7 @@ class Stats:
         mad = np.median(np.fabs(weights-med))
         return mad
 
+    @classmethod
     def robust(weights):
         """Function to return a more robust method for detecting outliers based on the median 
         absolute deviation (MAD) of edge weights. """
@@ -33,12 +36,14 @@ class Stats:
 
         return outlyingness
 
+    @classmethod
     def eigen(matrix):
         """Use numpy.linal.eig to calculate eigenvalues and right eigenvectors of sim matrix."""
 
         w, v = np.linalg.eig(matrix)
         return w, v     
 
+    @classmethod
     def svd(matrix):
         """Use numpy.linal.eig to calculate eigenvalues and right eigenvectors of sim matrix."""
 
